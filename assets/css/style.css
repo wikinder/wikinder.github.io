@@ -1,0 +1,22 @@
+body {
+  font-family: "Palatino Linotype", Palatino, serif;
+
+  /* Center content on large screens. */
+  margin-inline: auto;
+  max-width: 80ch;
+  line-height: 1.5;
+  padding-inline: 1rem;
+
+  /* Prevent horizontal scrollbars. */
+  overflow-wrap: anywhere;
+}
+
+/* Prevent horizontal scrollbars. */
+pre {
+  white-space: break-spaces;
+}
+
+/* Responsive images. */
+img {
+  max-width: 100%;
+}

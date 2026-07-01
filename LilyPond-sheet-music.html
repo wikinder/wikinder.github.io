@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="format-detection" content="telephone=no">
+    <title>LilyPond sheet music</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="canonical" href="https://wikinder.org/LilyPond-sheet-music">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <meta name="author" content="yuuki">
+    <!-- OG meta tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="LilyPond sheet music">
+    <meta property="og:url" content="https://wikinder.org/LilyPond-sheet-music">
+    <meta property="og:image" content="https://wikinder.org/assets/images/icon.jpg">
+    <meta property="og:site_name" content="Wikinder">
+    <meta property="article:published_time" content="2025-09-10T06:47:41Z">
+    <meta property="article:modified_time" content="2026-01-30T21:04:37Z">
+    <!-- /OG meta tags -->
+    <!-- X Card meta tags -->
+    <meta name="twitter:card" content="summary">
+    <!-- /X Card meta tags -->
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "LilyPond sheet music",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://wikinder.org/LilyPond-sheet-music"
+        },
+        "image": "https://wikinder.org/assets/images/icon.jpg",
+        "datePublished": "2025-09-10T06:47:41Z",
+        "dateModified": "2026-01-30T21:04:37Z",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "author": {
+          "@type": "Person",
+          "name": "yuuki",
+          "url": "https://github.com/wikinder/wikinder/commit/1be3788009d44f15bfa736c3a05896d480d49ac4"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Wikinder",
+          "url": "https://wikinder.org",
+          "logo": "https://wikinder.org/assets/images/icon.jpg"
+        }
+      }
+    </script>
+    <!-- /Structured data -->
+  </head>
+  <body>
+    <!-- Page header -->
+    <header>
+      <nav>
+        <p>
+          <a href="/">Wikinder</a>
+        </p>
+      </nav>
+    </header>
+    <!-- /Page header -->
+    <!-- Page body -->
+    <main>
+      <article>
+        <!-- Article header -->
+        <header>
+          <h1>LilyPond sheet music</h1>
+          <p>
+            <time datetime="2025-09-10T06:47:41Z">September 10, 2025</time> · 🕒 <time datetime="2026-01-30T21:04:37Z">January 30, 2026</time>
+          </p>
+        </header>
+        <!-- /Article header -->
+        <!-- Article body -->
+        <div>
+          <p><a class="internal present" href="/yuuki">#yuuki</a> <a class="internal absent" href="/Music">#music</a></p>
+          <p>Formalizing musical notation as strings is interesting.</p>
+          <p>MusicXML is a practical interchange format, supported by applications such as MuseScore. However, it is too verbose to write by hand.</p>
+          <p>LilyPond notation is useful for writing simple scores. It is less interchangeable; few tools convert it to other formats.</p>
+          <p>There are many other formats as well:</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Format</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Music Macro Language (MML)</td>
+              </tr>
+              <tr>
+                <td>ABC notation</td>
+              </tr>
+              <tr>
+                <td>LilyPond notation</td>
+              </tr>
+              <tr>
+                <td>Guido notation</td>
+              </tr>
+              <tr>
+                <td>MEI</td>
+              </tr>
+              <tr>
+                <td>MusicXML</td>
+              </tr>
+              <tr>
+                <td>MNX</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Below are fragments of LilyPond scores for traditional music.</p>
+          <p>Repo: <a href="https://github.com/yuuki7/sheetmusic">https://github.com/yuuki7/sheetmusic</a></p>
+          <h2>
+            <a href="#happy-birthday-to-you" aria-hidden="true" class="anchor" id="happy-birthday-to-you"></a>Happy Birthday to You
+          </h2>
+          <pre lang="lilypond" style="background-color:#2b303b;"><code><span style="color:#c0c5ce;">\fixed c' {
+</span><span style="color:#c0c5ce;">  \time 3/4
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  \partial 4
+</span><span style="color:#c0c5ce;">  g8.[ g16] | a4 g4 c'4 | b2 g8.[ g16] | a4 g4 d'4 | c'2 g8.[ g16] | \break
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  g'4 e'4 c'4 | b4 a4\fermata f'8.[ f'16] | e'4 c'4 d'4 | c'2 \bar "|."
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+          <p><img src="https://cdn.jsdelivr.net/gh/yuuki7/sheetmusic/happy/happy.svg" alt="Sheet music for &quot;Happy Birthday to You&quot;"></p>
+          <details>
+            <summary>Play</summary>
+            <p><a href="https://github.com/user-attachments/assets/2495c0e8-170b-4230-9838-9d4fbe2c85be">Play "Happy Birthday to You"</a></p>
+          </details>
+          <h2>
+            <a href="#row-row-row-your-boat" aria-hidden="true" class="anchor" id="row-row-row-your-boat"></a>Row, Row, Row Your Boat
+          </h2>
+          <pre lang="lilypond" style="background-color:#2b303b;"><code><span style="color:#c0c5ce;">\fixed c' {
+</span><span style="color:#c0c5ce;">  \numericTimeSignature
+</span><span style="color:#c0c5ce;">  \time 4/4
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  c4 c4 c8.[ d16] e4 | e8.[ d16] e8.[ f16] g2 | \break
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  \tuplet 3/2 { c'8[ c'8 c'8] } \tuplet 3/2 { g8[ g8 g8] }
+</span><span style="color:#c0c5ce;">  \tuplet 3/2 { e8[ e8 e8] } \tuplet 3/2 { c8[ c8 c8] }
+</span><span style="color:#c0c5ce;">  | g8.[ f16] e8.[ d16] c2 \bar "|."
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+          <p><img src="https://cdn.jsdelivr.net/gh/yuuki7/sheetmusic/row/row.svg" alt="Sheet music for &quot;Row, Row, Row Your Boat&quot;"></p>
+          <details>
+            <summary>Play</summary>
+            <p><a href="https://github.com/user-attachments/assets/58783036-f6ae-4422-9c6a-f5f1fd4b9972">Play "Row, Row, Row Your Boat"</a></p>
+          </details>
+          <h2>
+            <a href="#twinkle-twinkle-little-star" aria-hidden="true" class="anchor" id="twinkle-twinkle-little-star"></a>Twinkle, Twinkle, Little Star
+          </h2>
+          <pre lang="lilypond" style="background-color:#2b303b;"><code><span style="color:#c0c5ce;">\fixed c' {
+</span><span style="color:#c0c5ce;">  \numericTimeSignature
+</span><span style="color:#c0c5ce;">  \time 4/4
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  c4 c4 g4 g4 | a4 a4 g2 | f4 f4 e4 e4 | d4 d4 c2 | \break
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  g4 g4 f4 f4 | e4 e4 d2 | g4 g4 f4 f4 | e4 e4 d2 | \break
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#c0c5ce;">  c4 c4 g4 g4 | a4 a4 g2 | f4 f4 e4 e4 | d4 d4 c2 \bar "|."
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+          <p><img src="https://cdn.jsdelivr.net/gh/yuuki7/sheetmusic/twinkle/twinkle.svg" alt="Sheet music for &quot;Twinkle, Twinkle, Little Star&quot;"></p>
+          <details>
+            <summary>Play</summary>
+            <p><a href="https://github.com/user-attachments/assets/bc352143-674d-4313-9bca-53b110c24b6a">Play "Twinkle, Twinkle, Little Star"</a></p>
+          </details>
+        </div>
+        <!-- /Article body -->
+      </article>
+    </main>
+    <!-- /Page body -->
+    <!-- Page footer -->
+    <footer>
+      <p>🧸 Content is available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless otherwise noted.</p>
+      <p>
+        <a href="https://github.com/wikinder/wikinder/wiki/LilyPond-sheet-music">Edit this page</a>
+      </p>
+    </footer>
+    <!-- /Page footer -->
+  </body>
+</html>

@@ -82,7 +82,7 @@
           <p>Is 111 prime?</p>
           <p>No, it is divisible by 3.</p>
           <p>What about 1111?</p>
-          <p>This looks like a prime. It is not divisible by 3, 5, or 7. But no. It has a factorization: $1111 = 11 \cdot 101$.</p>
+          <p>This looks like a prime. It is not divisible by 3, 5, or 7. But no. It has a factorization: <span data-math-style="inline">1111 = 11 \cdot 101</span>.</p>
           <p>What about 11111? Then I got overheated.</p>
           <p>Later, I became interested in palindromes in language, which led me to study numbers as strings in math.</p>
           <table>
@@ -98,8 +98,11 @@
             <tbody>
               <tr>
                 <td>11, 111, 1111</td>
-                <td>repunit $R_n$</td>
-                <td>$n$ is prime</td>
+                <td>repunit <span data-math-style="inline">R_n</span>
+                </td>
+                <td>
+                  <span data-math-style="inline">n</span> is prime
+                </td>
                 <td>A002275</td>
                 <td><code>1+</code></td>
               </tr>
@@ -129,7 +132,8 @@
               <tr>
                 <td>101, 1001, 10001</td>
                 <td></td>
-                <td>of the form $10^{2^n} + 1$</td>
+                <td>of the form <span data-math-style="inline">10^{2^n} + 1</span>
+                </td>
                 <td>A000533</td>
                 <td><code>10*1</code></td>
               </tr>
@@ -138,15 +142,15 @@
           <h2>
             <a href="#repunits" aria-hidden="true" class="anchor" id="repunits"></a>Repunits
           </h2>
-          <p>A number of the form $11...1$ is called a <dfn>repunit</dfn>, denoted $R_n$, where $n$ is the number of 1s.</p>
-          <p>If $n$ is composite, then $R_n$ is divisible by $R_k$, where $k$ is a factor of $n$. For example, $R_9 = 111,111,111$ is divisible by $R_3 = 111$.</p>
-          <p>Therefore, $R_n$ is prime only if $n$ is prime.</p>
-          <p>$R_2 = 11$ is prime, but neither $R_3$ nor $R_5$ is. The next primes are $R_{19}$ and $R_{23}$, followed by $R_{317}$.</p>
+          <p>A number of the form <span data-math-style="inline">11...1</span> is called a <dfn>repunit</dfn>, denoted <span data-math-style="inline">R_n</span>, where <span data-math-style="inline">n</span> is the number of 1s.</p>
+          <p>If <span data-math-style="inline">n</span> is composite, then <span data-math-style="inline">R_n</span> is divisible by <span data-math-style="inline">R_k</span>, where <span data-math-style="inline">k</span> is a factor of <span data-math-style="inline">n</span>. For example, <span data-math-style="inline">R_9 = 111,111,111</span> is divisible by <span data-math-style="inline">R_3 = 111</span>.</p>
+          <p>Therefore, <span data-math-style="inline">R_n</span> is prime only if <span data-math-style="inline">n</span> is prime.</p>
+          <p><span data-math-style="inline">R_2 = 11</span> is prime, but neither <span data-math-style="inline">R_3</span> nor <span data-math-style="inline">R_5</span> is. The next primes are <span data-math-style="inline">R_{19}</span> and <span data-math-style="inline">R_{23}</span>, followed by <span data-math-style="inline">R_{317}</span>.</p>
           <h2>
             <a href="#repdigits" aria-hidden="true" class="anchor" id="repdigits"></a>Repdigits
           </h2>
           <p>A number like 111, 222, or 3333 is called a <dfn>repdigit</dfn>. Every repunit is a repdigit.</p>
-          <p>Repdigits are not prime (except for repunit primes and single-digit primes) because they are divisible by a repunit, e.g., $777 = 7 \cdot 111$.</p>
+          <p>Repdigits are not prime (except for repunit primes and single-digit primes) because they are divisible by a repunit, e.g., <span data-math-style="inline">777 = 7 \cdot 111</span>.</p>
           <p><a class="internal present" href="/Math">#math</a> <a class="internal present" href="/yuuki">#yuuki</a></p>
           <h2>
             <a href="#notes" aria-hidden="true" class="anchor" id="notes"></a>Notes

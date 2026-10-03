@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="format-detection" content="telephone=no">
+    <title>Proofs of ultimate math formulas</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- MathJax -->
+    <script defer src="/assets/js/mathjax-config.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4.1.2/startup.js" integrity="sha512-hWGDmsdTVDhEQ++tRfdduyZoXByJaAEMAGK3i/5dphjQrNplBhzLYHQIwR3ZqXH74uE1y5DNFpGNXQqWYhiUOQ==" crossorigin="anonymous"></script>
+    <!-- /MathJax -->
+    <link rel="canonical" href="https://wikinder.org/Proofs-of-ultimate-math-formulas">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <meta name="author" content="yuuki">
+    <!-- OG meta tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Proofs of ultimate math formulas">
+    <meta property="og:url" content="https://wikinder.org/Proofs-of-ultimate-math-formulas">
+    <meta property="og:image" content="https://wikinder.org/assets/images/icon.jpg">
+    <meta property="og:site_name" content="Wikinder">
+    <meta property="article:published_time" content="2025-06-15T08:04:38Z">
+    <meta property="article:modified_time" content="2026-09-24T01:39:33Z">
+    <!-- /OG meta tags -->
+    <!-- X Card meta tags -->
+    <meta name="twitter:card" content="summary">
+    <!-- /X Card meta tags -->
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Proofs of ultimate math formulas",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://wikinder.org/Proofs-of-ultimate-math-formulas"
+        },
+        "image": "https://wikinder.org/assets/images/icon.jpg",
+        "datePublished": "2025-06-15T08:04:38Z",
+        "dateModified": "2026-09-24T01:39:33Z",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "author": {
+          "@type": "Person",
+          "name": "yuuki",
+          "url": "https://github.com/wikinder/wikinder/commit/0777507377314849117e3cf048bfce757f9f4cb9"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Wikinder",
+          "url": "https://wikinder.org",
+          "logo": "https://wikinder.org/assets/images/icon.jpg"
+        }
+      }
+    </script>
+    <!-- /Structured data -->
+  </head>
+  <body>
+    <!-- Page header -->
+    <header>
+      <nav>
+        <p>
+          <a href="/">Wikinder</a>
+        </p>
+      </nav>
+    </header>
+    <!-- /Page header -->
+    <!-- Page body -->
+    <main>
+      <article>
+        <!-- Article header -->
+        <header>
+          <h1>Proofs of ultimate math formulas</h1>
+          <p>
+            <time datetime="2025-06-15T08:04:38Z">June 15, 2025</time> · 🕒 <time datetime="2026-09-24T01:39:33Z">September 24, 2026</time>
+          </p>
+        </header>
+        <!-- /Article header -->
+        <!-- Article body -->
+        <div>
+          <p>&lt; <a class="internal present" href="/Ultimate-math-formulas">Ultimate math formulas</a></p>
+          <h2>
+            <a href="#expansion-and-factorization" aria-hidden="true" class="anchor" id="expansion-and-factorization"></a>Expansion and factorization
+          </h2>
+          <h2>
+            <a href="#quadratic-formula" aria-hidden="true" class="anchor" id="quadratic-formula"></a>Quadratic formula
+          </h2>
+          <h2>
+            <a href="#exponent-rules" aria-hidden="true" class="anchor" id="exponent-rules"></a>Exponent rules
+          </h2>
+          <p>Let <code data-math-style="inline">a</code> and <code data-math-style="inline">b</code> be real numbers, and let <code data-math-style="inline">m</code> and <code data-math-style="inline">n</code> be positive integers.</p>
+          <p><strong>Definition (<em>Exponentiation</em>):</strong></p>
+          <p><code data-math-style="inline">a^1 = a</code> (Def. 1)</p>
+          <p><code data-math-style="inline">a^{n + 1} = a^n a</code> for <code data-math-style="inline">n \ge 1</code> (Def. 2)</p>
+          <p>By induction on <code data-math-style="inline">n</code>:</p>
+          <details>
+            <summary>Product of powers</summary>
+            <p><code data-math-style="inline">a^m a^n = a^{m + n}</code></p>
+            <p>Base case (<code data-math-style="inline">n = 1</code>):</p>
+            <p><code data-math-style="inline">a^m a^1 = a^m a</code> (by Def. 1)</p>
+            <p><code data-math-style="inline">= a^{m + 1}</code> (by Def. 2)</p>
+            <p>Inductive step:</p>
+            <p>Assume <code data-math-style="inline">a^m a^n = a^{m + n}</code>. Then:</p>
+            <p><code data-math-style="inline">a^m a^{n + 1} = a^m(a^n a)</code> (by Def. 2)</p>
+            <p><code data-math-style="inline">= (a^m a^n)a</code> (by associativity)</p>
+            <p><code data-math-style="inline">= a^{m + n} a</code> (by the induction hypothesis)</p>
+            <p><code data-math-style="inline">= a^{(m + n) + 1}</code> (by Def. 2)</p>
+            <p><code data-math-style="inline">= a^{m + (n + 1)}</code> (by associativity)</p>
+          </details>
+          <details>
+            <summary>Power of a power</summary>
+            <p><code data-math-style="inline">(a^m)^n = a^{mn}</code></p>
+            <p>Base case (<code data-math-style="inline">n = 1</code>):</p>
+            <p><code data-math-style="inline">(a^m)^1 = a^m</code> (by Def. 1)</p>
+            <p><code data-math-style="inline">= a^{m \cdot 1}</code> (by identity)</p>
+            <p>Inductive step:</p>
+            <p>Assume <code data-math-style="inline">(a^m)^n = a^{mn}</code>. Then:</p>
+            <p><code data-math-style="inline">(a^m)^{n + 1} = (a^m)^n a^m</code> (by Def. 2)</p>
+            <p><code data-math-style="inline">= a^{mn} a^m</code> (by the induction hypothesis)</p>
+            <p><code data-math-style="inline">= a^{mn + m}</code> (by product of powers)</p>
+            <p><code data-math-style="inline">= a^{m(n + 1)}</code> (by distributivity)</p>
+          </details>
+          <details>
+            <summary>Power of a product</summary>
+            <p><code data-math-style="inline">(ab)^n = a^n b^n</code></p>
+            <p>Base case (<code data-math-style="inline">n = 1</code>):</p>
+            <p><code data-math-style="inline">(ab)^1 = ab</code> (by Def. 1)</p>
+            <p><code data-math-style="inline">= a^1 b^1</code> (by Def. 1)</p>
+            <p>Inductive step:</p>
+            <p>Assume <code data-math-style="inline">(ab)^n = a^n b^n</code>. Then:</p>
+            <p><code data-math-style="inline">(ab)^{n + 1} = (ab)^n(ab)</code> (by Def. 2)</p>
+            <p><code data-math-style="inline">= (a^n b^n)(ab)</code> (by the induction hypothesis)</p>
+            <p><code data-math-style="inline">= (a^n a)(b^n b)</code> (by associativity and commutativity)</p>
+            <p><code data-math-style="inline">= a^{n + 1} b^{n + 1}</code> (by Def. 2)</p>
+          </details>
+          <h2>
+            <a href="#logarithm-rules" aria-hidden="true" class="anchor" id="logarithm-rules"></a>Logarithm rules
+          </h2>
+          <p>Let <code data-math-style="inline">a, b, M, N, x &gt; 0</code> and <code data-math-style="inline">n</code> be real numbers, with <code data-math-style="inline">a, b \ne 1</code>. Since a logarithm is an inverse of exponentiation, we have</p>
+          <p><code data-math-style="inline">\log_a(a^x) = a^{\log_a x} = x</code>,</p>
+          <p>just like <code data-math-style="inline">f^{-1}(f(x)) = f(f^{-1}(x)) = x</code>. Using this:</p>
+          <p><code data-math-style="inline">\log_a(MN) = \log_a(a^{\log_a M} a^{\log_a N}) = \log_a(a^{\log_a M + \log_a N}) = \log_a M + \log_a N</code></p>
+          <p><code data-math-style="inline">\log_a(M^n) = \log_a((a^{\log_a M})^n) = \log_a(a^{n \log_a M}) = n \log_a M</code></p>
+          <p><code data-math-style="inline">\log_a M = \displaystyle \frac{\log_a M \cdot \log_b a}{\log_b a} = \frac{\log_b(a^{\log_a M})}{\log_b a} = \frac{\log_b M}{\log_b a}</code></p>
+          <h2>
+            <a href="#fractions" aria-hidden="true" class="anchor" id="fractions"></a>Fractions
+          </h2>
+          <h2>
+            <a href="#systems-of-linear-equations" aria-hidden="true" class="anchor" id="systems-of-linear-equations"></a>Systems of linear equations
+          </h2>
+          <h2>
+            <a href="#sequences" aria-hidden="true" class="anchor" id="sequences"></a>Sequences
+          </h2>
+          <h2>
+            <a href="#derivatives" aria-hidden="true" class="anchor" id="derivatives"></a>Derivatives
+          </h2>
+          <h2>
+            <a href="#trigonometric-identities" aria-hidden="true" class="anchor" id="trigonometric-identities"></a>Trigonometric identities
+          </h2>
+          <h3>
+            <a href="#pythagorean-identity" aria-hidden="true" class="anchor" id="pythagorean-identity"></a>Pythagorean identity
+          </h3>
+          <h3>
+            <a href="#addition-formulas" aria-hidden="true" class="anchor" id="addition-formulas"></a>Addition formulas
+          </h3>
+          <p><code data-math-style="inline">\cos(\alpha + \beta) + i \sin(\alpha + \beta) = e^{i(\alpha + \beta)}</code></p>
+          <p><code data-math-style="inline">= e^{i\alpha} e^{i\beta}</code></p>
+          <p><code data-math-style="inline">= (\cos \alpha + i \sin \alpha)(\cos \beta + i \sin \beta)</code></p>
+          <p><code data-math-style="inline">= (\cos \alpha \cos \beta - \sin \alpha \sin \beta) + i(\sin \alpha \cos \beta + \cos \alpha \sin \beta)</code></p>
+          <h3>
+            <a href="#double-angle-formulas" aria-hidden="true" class="anchor" id="double-angle-formulas"></a>Double-angle formulas
+          </h3>
+          <p><code data-math-style="inline">\sin 2\theta = \sin(\theta + \theta) = \sin \theta \cos \theta + \cos \theta \sin \theta = 2 \sin \theta \cos \theta</code></p>
+          <p><code data-math-style="inline">\cos 2\theta = \cos(\theta + \theta) = \cos \theta \cos \theta - \sin \theta \sin \theta = \cos^2 \theta - \sin^2 \theta</code></p>
+          <p><code data-math-style="inline">\cos^2 \theta - \sin^2 \theta = (1 - \sin^2 \theta) - \sin^2 \theta = 1 - 2 \sin^2 \theta</code></p>
+          <p><code data-math-style="inline">\cos^2 \theta - \sin^2 \theta = \cos^2 \theta - (1 - \cos^2 \theta) = 2 \cos^2 \theta - 1</code></p>
+          <h3>
+            <a href="#multiple-angle-formulas" aria-hidden="true" class="anchor" id="multiple-angle-formulas"></a>Multiple-angle formulas
+          </h3>
+          <p><code data-math-style="inline">\cos n\theta + i \sin n\theta = (\cos \theta + i \sin \theta)^n = \displaystyle \sum_{k = 0}^n \binom{n}{k} \cos^{n - k} \theta \, i^k \sin^k \theta</code></p>
+          <h2>
+            <a href="#eulers-formula" aria-hidden="true" class="anchor" id="eulers-formula"></a>Euler's formula
+          </h2>
+          <p>Let <code data-math-style="inline">e^{ix} = f + ig</code> (Eq. 1).</p>
+          <p>Differentiate both sides with respect to <code data-math-style="inline">x</code>:</p>
+          <p><code data-math-style="inline">(e^{ix})' = (f + ig)'</code></p>
+          <p><code data-math-style="inline">ie^{ix} = f' + ig'</code> (Eq. 2)</p>
+          <p>Substitute Eq. 1 into the left-hand side:</p>
+          <p><code data-math-style="inline">i(f + ig) = f' + ig'</code></p>
+          <p><code data-math-style="inline">-g + if = f' + ig'</code></p>
+          <p>Equate the real and imaginary parts of both sides:</p>
+          <p><code data-math-style="inline">-g = f'</code></p>
+          <p><code data-math-style="inline">f = g'</code></p>
+          <p>Which can be rewritten as:</p>
+          <p><code data-math-style="inline">f'' = -f</code></p>
+          <p><code data-math-style="inline">g'' = -g</code></p>
+          <p>These are second-order differential equations with initial conditions <code data-math-style="inline">f(0) = 1</code>, <code data-math-style="inline">f'(0) = 0</code>, <code data-math-style="inline">g(0) = 0</code>, and <code data-math-style="inline">g'(0) = 1</code>, obtained by substituting <code data-math-style="inline">x = 0</code> into Eqs. 1 and 2. The unique solutions are:</p>
+          <p><code data-math-style="inline">f = \cos x</code></p>
+          <p><code data-math-style="inline">g = \sin x</code></p>
+          <p><a class="internal present" href="/Math">#math</a></p>
+        </div>
+        <!-- /Article body -->
+      </article>
+    </main>
+    <!-- /Page body -->
+    <!-- Page footer -->
+    <footer>
+      <p>🧸 Content is available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless otherwise noted.</p>
+      <p>
+        <a href="https://github.com/wikinder/wikinder/wiki/Proofs-of-ultimate-math-formulas">Edit this page</a>
+      </p>
+    </footer>
+    <!-- /Page footer -->
+  </body>
+</html>
